@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OverviewMaster.master.cs" Inherits="OverviewMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head id="Head1" runat="server">
+        <title>Sample Master Page</title>
+        <link href="Overview.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+ 
+             <header>
+                 Overview<br />
+             </header>
+ 
+            <article>
+                <br />
+&nbsp;<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </article>
+  
+            <footer>
+                
+            </footer>
+        </form>
+    </body>
+</html>
+
